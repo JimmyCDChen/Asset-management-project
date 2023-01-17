@@ -1,17 +1,14 @@
-import express from 'express';
-import authRoute from './AuthRoute';
+import { Router } from 'express';
+import AssetRoutes from './AssetRoute';
+import Route from './RouteAbstract';
 
-const router = express.Router();
+const app = Router();
 
-const allRoutes = [
-  {
-    path: '/auth',
-    route: authRoute,
-  },
-];
+const allRoutes: Array<Route> = [new AssetRoutes()];
 
-allRoutes.forEach((route) => {
-  router.use(route.path, route.route);
-});
+// load router
+for (const route of allRoutes) {
+  app.use(route.getPrefix(), route.getRouter());
+}
 
-export default router;
+export default app;

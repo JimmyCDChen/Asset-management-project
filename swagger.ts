@@ -1,16 +1,11 @@
-import { getUsers } from './src/open-api/get-users';
+import { getAssets } from './src/open-api/get-assets';
 export const swaggerDocument = {
   openapi: '3.0.1',
   info: {
     version: '1.0.0',
     title: 'APIs Document',
-    description: 'your description here',
+    description: 'Asset management project',
     termsOfService: '',
-    contact: {
-      name: 'Mohammad Faisal',
-      email: 'mohammadfaisal@gmail.com',
-      url: 'https://www.mohammadfaisal.dev/',
-    },
     license: {
       name: 'Apache 2.0',
       url: 'https://www.apache.org/licenses/LICENSE-2.0.html',
@@ -22,8 +17,8 @@ export const swaggerDocument = {
     },
   ],
   paths: {
-    '/auth/users': {
-      get: getUsers,
+    '/asset': {
+      get: getAssets,
     },
   },
   servers: [
