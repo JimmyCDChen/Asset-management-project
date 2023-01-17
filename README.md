@@ -1,57 +1,8 @@
 <div id="top"></div>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h2 align="center">Professional NodeJS Boilerplate with Express, Typescript, Docker and Sequelize </h2>
+  <h2 align="center">Asset Management Project - Typescript, Nodejs, Sequalize, Docker </h2>
 </div>
-
-## About The Project
-
-There are a lot of section that goes into creating a production grade NodeJS application. In this repository I tried to gather as much as possible. This is an ExpressJS application with the following features.
-
-- Typescript all the way
-- EsLint, Prettier and Husky integration
-- Docker
-- Sequelize integration
-- Multiple Environments
-- Logging
-- Error handling in a central place
-- Request Validation
-- Swagger API documentation
-- Dependency Injection
-- Setting up Testing
-
-Let me know what else can make this repo even better
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Learn while building
-
-One key difference with other similar projects is that I documented every step in the way. Following is a series of articles that will guide you on how to build this project from absolute scratch.
-
-- [Creating NodeJS with Typescript from Scratch](https://www.mohammadfaisal.dev/blog/create-nodejs-typescript-boilerplate)
-- [Adding Eslint, Prettier and Husky](https://www.mohammadfaisal.dev/blog/linter-formatter-for-nodejs-typescript)
-- [Introduce Express into the Project](https://www.mohammadfaisal.dev/blog/create-express-typescript-boilerplate)
-- [Adding Docker for Development and Production](https://www.mohammadfaisal.dev/blog/express-typescript-docker)
-- [Setting up local database with Docker](https://www.mohammadfaisal.dev/blog/express-database-docker-compose)
-- [Error Handling](https://www.mohammadfaisal.dev/blog/error-handling-nodejs-express)
-- [Request Validation](https://www.mohammadfaisal.dev/blog/request-validation-nodejs-express)
-- [Production Grade Logging](https://www.mohammadfaisal.dev/blog/nodejs-logging-for-production)
-- [Environment Configuration](https://www.mohammadfaisal.dev/blog/nodejs-environment-handling)
-- [Security Best Practices](https://www.mohammadfaisal.dev/blog/nodejs-security-best-practices)
-- [Dependency Injection](https://www.mohammadfaisal.dev/blog/dependency-injection-in-nodejs)
-- [Using Sequelize ORM](https://www.mohammadfaisal.dev/blog/connect-to-postgres-server-using-sequalize)
-- [Adding Swagger for API Documentation](https://www.mohammadfaisal.dev/blog/api-documentation-in-express-with-swagger)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Technologies
 
@@ -138,16 +89,3 @@ To create a new model for data base look into the `/models` folder.
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-[contributors-shield]: https://img.shields.io/github/contributors/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate.svg?style=for-the-badge
-[contributors-url]: https://github.com/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate.svg?style=for-the-badge
-[forks-url]: https://github.com/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate/network/members
-[stars-shield]: https://img.shields.io/github/stars/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate.svg?style=for-the-badge
-[stars-url]: https://github.com/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate.svg?style=for-the-badge
-[issues-url]: https://github.com/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate/issues
-[license-shield]: https://img.shields.io/github/license/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate.svg?style=for-the-badge
-[license-url]: https://github.com/Mohammad-Faisal/professional-express-sequelize-docker-boilerplate/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/56faisal/

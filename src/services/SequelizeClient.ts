@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize-typescript';
 import config from '../config/Config';
-import { User } from '../models/User';
+import { Asset } from '../models/Asset';
 
 /**
  * More info: https://www.mohammadfaisal.dev/blog/connect-to-postgres-server-using-sequalize

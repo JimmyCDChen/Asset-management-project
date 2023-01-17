@@ -3,9 +3,6 @@ import { ClassConstructor, plainToInstance } from 'class-transformer';
 import { validate } from 'class-validator';
 import { BadRequestError } from '../utils/ApiError';
 
-/**
- * More info: https://www.mohammadfaisal.dev/blog/request-validation-nodejs-express
- */
 export default class RequestValidator {
   static validate = <T extends object>(classInstance: ClassConstructor<T>) => {
     return async (req: Request, res: Response, next: NextFunction) => {

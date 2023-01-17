@@ -1,8 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { ApiError } from '../utils/ApiError';
-/**
- * More Information: https://www.mohammadfaisal.dev/blog/error-handling-nodejs-express
- */
+
 export default class ErrorHandler {
   static handle = () => {
     return async (err: ApiError, req: Request, res: Response, next: NextFunction) => {
